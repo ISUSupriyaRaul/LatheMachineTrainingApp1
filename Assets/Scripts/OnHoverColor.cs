@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// On hover changes the color of he part on which the mouse hovers
+/// </summary>
 public class OnHoverColor : MonoBehaviour
 {
     //When the mouse hovers over the GameObject, it turns to this color (red)

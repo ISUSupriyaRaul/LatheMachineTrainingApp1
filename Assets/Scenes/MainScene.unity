@@ -128,6 +128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7269981827111480703, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: m_Name
+      value: LM_LeadScrew_part02
+      objectReference: {fileID: 0}
     - target: {fileID: 7269981827119861600, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -187,6 +192,61 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LatheMachine_ FBX 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269981827838819816, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: m_Name
+      value: LM_Chuck_part03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269981827966382122, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: m_Name
+      value: LM_TailStock_part05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269981828196381727, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: m_Name
+      value: LM_Carriage_part04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: PartsToReset.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: LM_Chuck_part03
+      value: 
+      objectReference: {fileID: 1137102392}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: LM_Carriage_part04
+      value: 
+      objectReference: {fileID: 1428741637}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: LM_TailStock_part05
+      value: 
+      objectReference: {fileID: 1428741637}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: PartsToReset.Array.data[0]
+      value: 
+      objectReference: {fileID: 1137102392}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: PartsToReset.Array.data[1]
+      value: 
+      objectReference: {fileID: 1428741637}
+    - target: {fileID: 7269981828549094810, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: PartsToReset.Array.data[2]
+      value: 
+      objectReference: {fileID: 1612340376}
+    - target: {fileID: 7269981828549094812, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+        type: 3}
+      propertyPath: m_Name
+      value: LM_HeadStock_part01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3efd66ea72a569e48bbe3bbfe23501fb, type: 3}
@@ -568,3 +628,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1137102392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7269981827838819816, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 83914202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1428741637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7269981828196381727, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 83914202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1612340376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7269981827966382122, guid: 3efd66ea72a569e48bbe3bbfe23501fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 83914202}
+  m_PrefabAsset: {fileID: 0}
